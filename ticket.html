@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins/owl.carousel.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Cineplex</title>
+
+</head>
+
+<body>
+    <section class="py-5 ticket">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form action="">
+                                        <div class="w-75">
+                                            <h5 class="mb-2">Select Location</h5>
+                                            <select name="" id="" class="form-select">
+                                                <option value="">Location</option>
+                                            </select>
+                                        </div>
+                                    </form>
+                                    <p>Bashundhara Shopping Mall, Panthapath</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-lg-5">
+                            <!-- select date  -->
+                            <input type="Date" class="form-control">
+                        </div>
+                    </div>
+                    
+
+                    <!-- select movie  -->
+                    <div class="row mt-3">
+                        <h5 class="mb-2">Select Movie</h5>
+                        <div class="row">
+
+                            <div class="col-lg-2 movie-item">
+                                <div>
+                                    <img src="./assets/images/thumnail.webp" alt="">
+                                    <p>Movie title</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 movie-item">
+                                <div>
+                                    <img src="./assets/images/thumnail.webp" alt="">
+                                    <p>Movie title</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 movie-item">
+                                <div>
+                                    <img src="./assets/images/thumnail.webp" alt="">
+                                    <p>Movie title</p>
+                                </div>
+                            </div>
+                        
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- select show timee  -->
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="mb-2">Select show time</h5>
+                                    <div class="d-flex">
+
+                                        <div>
+                                            <input type="radio" name="show_time" id="morning"> <label for="morning">11:15 am</label>
+                                        </div>
+                                        <div class="ms-3">
+                                            <input type="radio" name="show_time" id="afternoon"> <label for="afternoon">11:00 am</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- select sheat type  -->
+                    <div class="row mt-3">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5  class="mb-2">Select Seat Type</h5>
+                                    <div class="d-flex ">
+
+                                        <div class=" d-flex align-items-center">
+                                            <input type="radio" name="show_time" id="regular"> <label for="regular" class="ms-2">
+                                                <div>
+                                                    <p>regular</p>
+                                                    <p>BDT 250 TK</p>
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        <div class=" d-flex align-items-center mx-5">
+                                            <input type="radio" name="show_time" id="premium"> <label for="premium" class="ms-2">
+                                                <div>
+                                                    <p>Premium</p>
+                                                    <p>BDT 300 TK</p>
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class=" ms-5">
+                                    <h5 class="mb-2" >Ticket Quantity    </h5>
+                                        <div class="d-flex align-items-center">
+                                            <button class="btn btn-info fw-bold">-</button>
+                                                <p class="mx-2">O Tickets</p>
+                                            <button class="btn btn-info fw-bold">+</button>                                                
+                                        </div>
+                                    </label>
+                                </div>
+                            
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- Seat diagram  -->
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between bg-light">
+                                        <div>time here</div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>Available</p>
+                                            <p class="mx-3">Selected</p>
+                                            <p>Not Available</p>
+                                        </div>
+                                    </div>
+
+                                    <hr>
+                                    <div>
+                                        <ul class="d-flex">
+                                            <li class="w-25"> <a class="default" href="#" >  N23 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N22 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N21 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N20 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N19 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N13 </a> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  N10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   N1 </a> </li>
+                                        </ul>
+
+                                    
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  M23 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M22 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M21 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M20 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M19 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  M10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   M1 </a> </li>
+                                        </ul>
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  L23 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L22 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L21 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L20 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L19 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  L10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   L1 </a> </li>
+                                        </ul>
+
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  K23 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K22 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K21 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K20 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K19 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  K10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   K1 </a> </li>
+                                        </ul>
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  J23 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J22 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J21 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J20 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J19 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  J10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   J1 </a> </li>
+                                        </ul>
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  H17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  H16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  H15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  H13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  H12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  H11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  H10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   H1 </a> </li>
+                                        </ul>
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  G18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  G10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   G1 </a> </li>
+                                        </ul>
+                                        <ul class="d-flex">                                        
+                                            <li class="w-25"> <a class="default" href="#" >  F18 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F17 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F16 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F15 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F14 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F13 </a> </li
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F12 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F11 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >  F10 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F9 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F8 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F7 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F6 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F5 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F4 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F3 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F2 </a> </li>
+                                            <li class="w-25"> <a class="default" href="#" >   F1 </a> </li>
+                                        </ul>
+
+                                    </div>
+
+                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-lg-3">
+                    <h5 class="mb-2">Tickets Summary</h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <img style="height:150px" src="./assets/images/thumnail.webp" alt="">
+                                <p class="ms-3">Bikkov</p>
+                            </div>
+                            <ul class="mt-4">
+                                <li class="d-flex my-2 justify-content-between">Show Date <span> 12 Jun </span></li>
+                                <li class="d-flex my-2 justify-content-between"> Hall Name <span> hall 3 </span></li>
+                                <li class="d-flex my-2 justify-content-between"> Seat type <span> Regular </span></li>
+                                <li class="d-flex my-2 justify-content-between">  <span> BSC</span></li>
+                                <li class="d-flex my-2 justify-content-between"> Ticket quantity <span> 1 </span></li>
+                                <li class="d-flex my-2 justify-content-between"> Selected Seat <span> H14 </span></li>
+                                <li class="d-flex my-2 justify-content-between"> Total Amount <span> 250 BDT </span></li>
+        
+                            </ul>
+                            <p class=" mt-4">Ticket for</p>
+
+                            <form action="">
+                                <div class="my-2">
+                                    <input type="text" name="name" class="form-control" placeholder="Full name" id="">
+                                </div>
+                                <div class="my-2">
+                                    <input type="text" name="phone" class="form-control"  placeholder="Mobile number" id="">
+                                </div>
+                                <div class="my-2">
+                                    <button class="btn btn-danger w-100">Purchase ticket</button>
+                                </div>
+
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+  
+      
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
